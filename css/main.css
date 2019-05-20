@@ -1,30 +1,30 @@
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-	font-family: 'Neuton', serif;
-	font-size: small;
-	color: #2d3c49;
+    font-family: 'Neuton', serif;
+    font-size: small;
+    color: #2d3c49;
 }
 
 h1 {
-	margin: 0;
-	line-height: 0.65em;
+    margin: 0;
+    line-height: 0.65em;
 }
 
 h2 {
-	width: 100%;
-	margin: 0.5em 0 0.5em 0;
-	color: #7d97ad;
+    width: 100%;
+    margin: 0.5em 0 0.5em 0;
+    color: #7d97ad;
 }
 
 h5 {
-	margin: 0.2em 0 0 0;
+    margin: 0.2em 0 0 0;
 }
 
 img {
-	width: 100%;
+    width: 100%;
 }
 
 /*
@@ -32,25 +32,25 @@ img {
  */
 
 header {
-	border-bottom: 0.15em solid #7d97ad;
-	padding: 0 0 0.5em 0;
-	display: flex;
-	flex-wrap: wrap;
+    border-bottom: 0.15em solid #7d97ad;
+    padding: 0 0 0.5em 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .header__logo {
-	width: 10%;
+    width: 10%;
 }
 
 .header__logo img {
-	max-width: 64px;
+    max-width: 64px;
 }
 .header__title {
-	font-size: 1.1em;
-	text-align: right;
-	text-transform: uppercase;
-	letter-spacing: 0.5em;
-	width: 90%;
+    font-size: 1.1em;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    width: 90%;
 }
 
 /*
@@ -58,8 +58,8 @@ header {
  */
 
 .main__image {
-	max-width: 800px;
-	margin: 0.5em 0 0 0;
+    max-width: 800px;
+    margin: 0.5em 0 0 0;
 }
 
 /*
@@ -67,22 +67,22 @@ header {
  */
 
 .featured {
-	margin: 0 0 0.5em 0;
+    margin: 0 0 0.5em 0;
 }
 
 .featured div {
-	width: 100%;
-	margin-bottom: 15px;
-	text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 .work__name {
-	font-size: 1.6em;
-	text-transform: uppercase;
+    font-size: 1.6em;
+    text-transform: uppercase;
 }
 
 .work__link {
-	font-size: 1.3em;
+    font-size: 1.3em;
 }
 
 /*
@@ -90,16 +90,16 @@ header {
  */
 
 footer {
-	border-top: 0.15em solid #7d97ad;
-	padding: 0.5em 0 0 0;
+    border-top: 0.15em solid #7d97ad;
+    padding: 0.5em 0 0 0;
 }
 
 .social__icons, .copyright {
-	text-align: center;
+    text-align: center;
 }
 
 .copyright {
-	font-size: 1em;
+    font-size: 1em;
 }
 
 /*
@@ -107,78 +107,78 @@ footer {
  */
 
 @media screen and (max-width: 319px) {
-	.header__title {
-		letter-spacing: 0.25em;
-	}
+    .header__title {
+        letter-spacing: 0.25em;
+    }
 }
 
 @media screen and (min-width: 450px) {
-	body {
-		font-size: large;
-	}
+    body {
+        font-size: large;
+    }
 }
 
 @media screen and (min-width: 550px) {
-	body {
-		font-size: larger;
-	}
+    body {
+        font-size: larger;
+    }
 }
 
 @media screen and (min-width: 650px) {
-	body {
-		font-size: x-large;
-	}
+    body {
+        font-size: x-large;
+    }
 
-	h2 {
-	margin: 0 0 0.5em 0;
-	}
+    h2 {
+    margin: 0 0 0.5em 0;
+    }
 
-	.featured {
-		display: flex;
-		flex-wrap: wrap;
-		margin: 0 0 0.5em 0;
-	}
+    .featured {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 0 0.5em 0;
+    }
 
-	.featured div {
-		margin-bottom: 0;
-		margin-right: 10px;
-		width: calc((100% - 20px)/3);
-	}
+    .featured div {
+        margin-bottom: 0;
+        margin-right: 10px;
+        width: calc((100% - 20px)/3);
+    }
 
-	.featured div:last-of-type {
-		margin-right: 0;
-	}
+    .featured div:last-of-type {
+        margin-right: 0;
+    }
 
-	.work__name {
-		font-size: 1.5em;
-	}
+    .work__name {
+        font-size: 1.5em;
+    }
 
-	.work__link {
-		font-size: 0.5em;
-		font-weight: bold;
-	}
+    .work__link {
+        font-size: 0.5em;
+        font-weight: bold;
+    }
 }
 
 @media screen and (min-width: 700px) {
-	.work__link {
-		font-size: 0.55em;
-	}
+    .work__link {
+        font-size: 0.55em;
+    }
 }
 
 @media screen and (min-width: 750px) {
-	.work__link {
-		font-size: 0.6em;
-	}
+    .work__link {
+        font-size: 0.6em;
+    }
 }
 
 @media screen and (min-width: 800px) {
-	body {
-		width: 800px;
-		margin-left: auto;
-		margin-right: auto;
-	}
+    body {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-	.work__link {
-		font-size: 0.7em;
-	}
+    .work__link {
+        font-size: 0.7em;
+    }
 }
